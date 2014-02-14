@@ -1,0 +1,93 @@
+/* 
+    Document   : login.css
+    Created on : 27/08/2013, 10:54:14
+    Author     : tiago.mateus
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    background: url('../img/backgroundLogin.png')repeat;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+#wrapperLogin{
+    margin: 0px;
+    padding: 0px;
+}
+
+#login{
+    width: 342px;
+    margin: 0 auto;
+}
+
+h1{
+    background: url('../img/logo_intranet.png')no-repeat;
+    width: 313px;
+    height: 85px;
+    text-indent: -9999px;
+}
+
+h5 {
+    color: #333333;
+    font-size: 13px;
+}
+
+#loginAcess{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 6px 6px 6px 6px;
+    height: 225px;
+    padding-left: 20px;
+    width: 300px;
+}
+
+.grid_3 {
+    margin-bottom: 15px;
+}
+
+.grid_3 label {
+    color: #333333;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+input {
+    background: none repeat scroll 0 0 #F4F4F4;
+    border: 1px solid #CCCCCC;
+    margin-top: 3px;
+    padding: 5px;
+    width: 260px;
+}
+
+button {
+    background: none repeat scroll 0 0 #296CD0;
+    border: 1px solid #2156A5;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 5px;
+    cursor: pointer;
+    width: 100px;
+}
+
+button:hover {
+    background: none repeat scroll 0 0 #4883da;
+}
+
+#invalidLogin {
+    display:none;
+}
+.error #invalidLogin {
+    background: none repeat scroll 0 0 #FEC1C2;
+    border: 1px solid #FF999A;
+    display: block;
+    font-size: 13px;
+    padding: 5px;
+    width: 310px;
+}
+
+#frames{
+    display: none;
+}

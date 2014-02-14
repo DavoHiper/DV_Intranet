@@ -1,0 +1,10 @@
+diff a/models/T0097/T0097.php b/models/T0097/T0097.php	(rejected hunks)
+@@ -55,7 +55,7 @@
+ 
+                            ORDER BY $filtro DESC";  
+         
+-//        echo $sql;
++        echo $sql;
+         
+         $stid    = oci_parse($connORA, $sql);
+         oci_execute($stid);
